@@ -64,16 +64,35 @@ h1{
      border: 1px solid black;
      width: 400px}
      /**desktop**/
-     @media screen and (min-width: 1350px) {
+     @media screen and (min-width: 992px) {
+      .chicken{
+        width:11.11% ;
+      }
+      .beef{
+        width: 66.66%;
+      }
+      .sushi{
+        width:100%;
+      }
 
      }
      /**tablette**/
      @media screen and (min-device-width: 768px) and (max-device-width: 991px) {
-
+      .chicken{width:11.11%;
+      }
+      .beef{width:66.66%;
+      }
+      .sushi{width:100%;
+      }
      }
      /**mobile**/
      @media screen and (min-width: 767px) {
-
+      .chicken{width:11.11%;
+      }
+      .beef{width:66.66%;
+      }
+      .sushi{width:100%;
+      }
      }
 
     
